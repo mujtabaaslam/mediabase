@@ -2,3 +2,6 @@ rootProject.name = 'mediabase'
 include "components:movies"
 include "applications:mediabase"
 include "components:podcasts"
+include "applications:movies-ms"
+include "components:ui"
+include "applications:podcasts-ms"
