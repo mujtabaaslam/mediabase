@@ -9,7 +9,7 @@ spring:
 
 logging.level:
   root: WARN
-  com.example.mediabase.podcastsUI: DEBUG
+  com.example.mediabase.podcastsui: DEBUG
 
 hystrix:
   command:
