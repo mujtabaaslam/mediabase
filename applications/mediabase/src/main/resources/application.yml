@@ -9,3 +9,12 @@ spring:
 
 logging.level:
   root: WARN
+  com.example.mediabase.podcastsUI: DEBUG
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
