@@ -3,6 +3,7 @@ buildscript {
         springBootVersion = "1.5.17.RELEASE"
         SCSClientStartersVersion = "1.6.6.RELEASE"
         SCVersion = "Edgware.RELEASE"
+        SCSSOVersion="1.1.0.RELEASE"
     }
 
     repositories {

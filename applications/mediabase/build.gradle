@@ -20,6 +20,9 @@ dependencies {
     compile('io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry')
     compile('io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker')
 
+    compile('org.springframework.cloud:spring-cloud-starter-oauth2')
+    compile("io.pivotal.spring.cloud:spring-cloud-sso-connector:$SCSSOVersion")
+
     compile('taglibs:standard:1.1.2')
     compile('javax.servlet:jstl:1.2')
     compile('org.apache.tomcat.embed:tomcat-embed-jasper:8.5.6')
